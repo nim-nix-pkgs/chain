@@ -9,7 +9,7 @@
   
   inputs.src-chain-master.flake = false;
   inputs.src-chain-master.owner = "khchen";
-  inputs.src-chain-master.ref   = "refs/heads/master";
+  inputs.src-chain-master.ref   = "master";
   inputs.src-chain-master.repo  = "chain";
   inputs.src-chain-master.type  = "github";
   
