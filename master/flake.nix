@@ -11,7 +11,6 @@
   inputs.src-chain-master.ref   = "refs/heads/master";
   inputs.src-chain-master.owner = "khchen";
   inputs.src-chain-master.repo  = "chain";
-  inputs.src-chain-master.dir   = "";
   inputs.src-chain-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
